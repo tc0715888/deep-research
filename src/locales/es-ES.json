@@ -1,8 +1,8 @@
 {
   "title": "Deep Research",
   "theme": "Tema",
-  "openSource": "Código Abierto",
-  "copyright": "Creado con ❤️ por el equipo de {{name}}",
+ 
+  "copyright": "Beta version, don't abuse!",
   "searchPlaceholder": "Por favor, introduce palabras clave",
   "research": {
     "common": {
@@ -301,7 +301,7 @@
       "financial": "Financeiro",
       "company": "Empresa",
       "personalSite": "Site Pessoal",
-      "github": "Github",
+      
       "linkedin": "Linkedin",
       "pdf": "PDF"
     },
