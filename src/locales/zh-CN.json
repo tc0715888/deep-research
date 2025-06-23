@@ -1,8 +1,8 @@
 {
   "title": "深度研究",
   "theme": "系统主题",
-  "openSource": "开源代码",
-  "copyright": "{{name}} 团队用 ❤️ 构建",
+  
+  "copyright": "测试版本，请勿滥用！",
   "searchPlaceholder": "请输入关键词",
   "research": {
     "common": {
@@ -301,7 +301,7 @@
       "financial": "金融",
       "company": "公司",
       "personalSite": "个人网站",
-      "github": "Github",
+      
       "linkedin": "领英",
       "pdf": "PDF"
     },
