@@ -1,6 +1,7 @@
 "use client";
 import { useTranslation } from "react-i18next";
-import { Settings, Github, History, BookText } from "lucide-react";
+// 从这行移除了 Github 图标的导入
+import { Settings, History, BookText } from "lucide-react";
 import { Button } from "@/components/Internal/Button";
 import { useGlobalStore } from "@/store/global";
 
@@ -13,23 +14,13 @@ function Header() {
   return (
     <>
       <header className="flex justify-between items-center my-6 max-sm:my-4 print:hidden">
-        <a href="https://github.com/u14app/deep-research" target="_blank">
-          <h1 className="text-left text-xl font-semibold">
-            {t("title")}
-            <small className="ml-2 font-normal text-base">v{VERSION}</small>
-          </h1>
-        </a>
+        {/* 包裹标题的 <a> 链接标签已被移除 */}
+        <h1 className="text-left text-xl font-semibold">
+          {t("title")}
+          <small className="ml-2 font-normal text-base">v{VERSION}</small>
+        </h1>
         <div className="flex">
-          <a href="https://github.com/u14app/deep-research" target="_blank">
-            <Button
-              className="h-8 w-8"
-              title={t("openSource")}
-              variant="ghost"
-              size="icon"
-            >
-              <Github className="h-5 w-5" />
-            </Button>
-          </a>
+          {/* GitHub 图标和链接已从这里移除 */}
           <Button
             className="h-8 w-8"
             variant="ghost"
